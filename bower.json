@@ -1,0 +1,23 @@
+{
+  "name": "Data Files",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Poncho <alfonsovelazquez.g@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/xenturi0n/NewPerspectives_HTML5andCSS3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "mappy-breakpoints": "^0.2.3",
+    "compass-breakpoint": "breakpoint-sass#~2.6.1",
+    "modular-scale": "~2.1.1",
+    "typi": "typi#3.1.2"
+  }
+}

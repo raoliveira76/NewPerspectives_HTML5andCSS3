@@ -1,7 +1,13 @@
-@import url('./A_settings/_settings.scss');
-@import url('./B_tools/_tools.scss');
-@import url('./C_genric/_generic.scss');
-@import url('./D_elements/_elements.scss');
-@import url('./E_objects/_objects.scss');
-@import url('./F_components/_components.scss');
-@import url('./G_utilities/_utilities.scss');
+@charset "utf-8";
+
+@import '../../../bower_components/mappy-breakpoints/_mappy-breakpoints.scss';
+@import '../../../bower_components/modular-scale/stylesheets/_modular-scale.scss';
+@import '../../../bower_components/typi/scss/_typi.scss';
+
+@import './A_settings/_settings.scss';
+@import './B_tools/_tools.scss';
+@import './C_genric/_generic.scss';
+@import './D_elements/_elements.scss';
+@import './E_objects/_objects.scss';
+@import './F_components/_components.scss';
+@import './G_utilities/_utilities.scss';
