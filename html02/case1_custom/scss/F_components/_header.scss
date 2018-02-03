@@ -1,0 +1,12 @@
+.header{
+    // height: vr(10);
+    &__logo{
+        display: block;
+        width: 100%;
+        // height: vr(4);
+    }
+}
+
+li:nth-child(odd){
+    background-color: lightblue;
+}

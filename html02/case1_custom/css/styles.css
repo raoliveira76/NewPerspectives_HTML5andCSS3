@@ -671,3 +671,16 @@ body {
       background-image: -o-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 38.832px);
       background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 38.832px);
       background-size: 100% 38.832px; } }
+
+body > * {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 0.809rem;
+  outline: 2px solid #e61a1a; }
+
+.header__logo {
+  display: block;
+  width: 100%; }
+
+li:nth-child(odd) {
+  background-color: lightblue; }
