@@ -1,3 +1,4 @@
 html{
-    @include typi('base')
+    @include typi('base');
+    background-color: $color1;
 }

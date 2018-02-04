@@ -1,0 +1,20 @@
+.nav{
+    &__list{
+        list-style: none;
+    }
+
+    &__item{
+        // outline: 2px solid black; //BORRAR
+        text-align: center;
+    }
+    
+    &__link, &__link:visited{
+        display: block;        
+        color: white;
+        font-family: 'Trebuchet MS', Helvetica, sans-serif!important;
+        text-decoration: none;
+        background-color: $color4;
+        line-height: vr(2);
+        border-bottom: 1px solid rgba(255,255,255,.05);
+    }    
+}

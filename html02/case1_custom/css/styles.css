@@ -500,7 +500,8 @@ fieldset {
 
 html {
   font-size: 100%;
-  line-height: 1.618; }
+  line-height: 1.618;
+  background-color: #8f9886; }
   @media all and (min-width: 37.5em) {
     html {
       font-size: 112.5%;
@@ -520,167 +521,204 @@ html {
 
 h1 {
   font-size: 1.728rem;
-  line-height: 1.618rem;
+  line-height: 1.5rem;
   background: lightblue; }
   @media all and (min-width: 37.5em) {
     h1 {
       font-size: 1.728rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 56.25em) {
     h1 {
       font-size: 1.728rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 75em) {
     h1 {
       font-size: 1.728rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 112.5em) {
     h1 {
       font-size: 1.728rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
 
 h2 {
   font-size: 1.44rem;
-  line-height: 1.618rem;
+  line-height: 1.5rem;
   background: lightgoldenrodyellow; }
   @media all and (min-width: 37.5em) {
     h2 {
       font-size: 1.44rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 56.25em) {
     h2 {
       font-size: 1.44rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 75em) {
     h2 {
       font-size: 1.44rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 112.5em) {
     h2 {
       font-size: 1.44rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
 
 h3 {
   font-size: 1.2rem;
-  line-height: 1.618rem;
+  line-height: 1.5rem;
   background: lightcoral; }
   @media all and (min-width: 37.5em) {
     h3 {
       font-size: 1.2rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 56.25em) {
     h3 {
       font-size: 1.2rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 75em) {
     h3 {
       font-size: 1.2rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 112.5em) {
     h3 {
       font-size: 1.2rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
 
 h4 {
   font-size: 0.83333rem;
-  line-height: 1.618rem; }
+  line-height: 1.5rem; }
   @media all and (min-width: 37.5em) {
     h4 {
       font-size: 0.83333rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 56.25em) {
     h4 {
       font-size: 0.83333rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 75em) {
     h4 {
       font-size: 0.83333rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 112.5em) {
     h4 {
       font-size: 0.83333rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
 
 h5 {
   font-size: 0.69444rem;
-  line-height: 1.618rem; }
+  line-height: 1.5rem; }
   @media all and (min-width: 37.5em) {
     h5 {
       font-size: 0.69444rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 56.25em) {
     h5 {
       font-size: 0.69444rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 75em) {
     h5 {
       font-size: 0.69444rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 112.5em) {
     h5 {
       font-size: 0.69444rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
 
 h6 {
   font-size: 0.5787rem;
-  line-height: 1.618rem; }
+  line-height: 1.5rem; }
   @media all and (min-width: 37.5em) {
     h6 {
       font-size: 0.5787rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 56.25em) {
     h6 {
       font-size: 0.5787rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 75em) {
     h6 {
       font-size: 0.5787rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
   @media all and (min-width: 112.5em) {
     h6 {
       font-size: 0.5787rem;
-      line-height: 1.618rem; } }
+      line-height: 1.5rem; } }
 
 body {
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 25.888px);
-  background-image: -o-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 25.888px);
-  background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 25.888px);
-  background-size: 100% 25.888px;
-  background-position: 0 0; }
-  @media all and (min-width: 600px) {
-    body {
-      background-image: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 29.124px);
-      background-image: -o-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 29.124px);
-      background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 29.124px);
-      background-size: 100% 29.124px; } }
-  @media all and (min-width: 900px) {
-    body {
-      background-image: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 32.36px);
-      background-image: -o-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 32.36px);
-      background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 32.36px);
-      background-size: 100% 32.36px; } }
-  @media all and (min-width: 1200px) {
-    body {
-      background-image: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 35.596px);
-      background-image: -o-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 35.596px);
-      background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 35.596px);
-      background-size: 100% 35.596px; } }
-  @media all and (min-width: 1800px) {
-    body {
-      background-image: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 38.832px);
-      background-image: -o-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 38.832px);
-      background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 38.832px);
-      background-size: 100% 38.832px; } }
-
-body > * {
+  background-color: #e3e2ca;
   max-width: 1024px;
+  width: calc(100% - vr(1));
   margin: 0 auto;
-  padding: 0 0.809rem;
-  outline: 2px solid #e61a1a; }
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; }
 
-.header__logo {
+p {
+  padding: 0.809rem 1.618rem 1.618rem 1.618rem; }
+
+address {
+  font-size: 0.83333rem;
+  line-height: 1.5rem;
+  text-align: center; }
+  @media all and (min-width: 37.5em) {
+    address {
+      font-size: 0.83333rem;
+      line-height: 1.5rem; } }
+  @media all and (min-width: 56.25em) {
+    address {
+      font-size: 0.83333rem;
+      line-height: 1.5rem; } }
+  @media all and (min-width: 75em) {
+    address {
+      font-size: 0.83333rem;
+      line-height: 1.5rem; } }
+  @media all and (min-width: 112.5em) {
+    address {
+      font-size: 0.83333rem;
+      line-height: 1.5rem; } }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  background-color: black; }
+  .header + p {
+    font-size: 1.2rem;
+    line-height: 1.5rem; }
+    @media all and (min-width: 37.5em) {
+      .header + p {
+        font-size: 1.2rem;
+        line-height: 1.5rem; } }
+    @media all and (min-width: 56.25em) {
+      .header + p {
+        font-size: 1.2rem;
+        line-height: 1.5rem; } }
+    @media all and (min-width: 75em) {
+      .header + p {
+        font-size: 1.2rem;
+        line-height: 1.5rem; } }
+    @media all and (min-width: 112.5em) {
+      .header + p {
+        font-size: 1.2rem;
+        line-height: 1.5rem; } }
+  .header__logo {
+    display: block;
+    width: 100%;
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1; }
+
+.nav__list {
+  list-style: none; }
+
+.nav__item {
+  text-align: center; }
+
+.nav__link, .nav__link:visited {
   display: block;
-  width: 100%; }
-
-li:nth-child(odd) {
-  background-color: lightblue; }
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  text-decoration: none;
+  background-color: rgba(107, 107, 107, 0.4);
+  line-height: 3.236rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
