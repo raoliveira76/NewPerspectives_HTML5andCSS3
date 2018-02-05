@@ -520,127 +520,124 @@ html {
       line-height: 1.618; } }
 
 h1 {
-  font-size: 1.728rem;
-  line-height: 1.5rem;
-  background: lightblue; }
+  font-size: 2.0736rem;
+  line-height: 1.618rem; }
   @media all and (min-width: 37.5em) {
     h1 {
-      font-size: 1.728rem;
-      line-height: 1.5rem; } }
+      font-size: 2.0736rem;
+      line-height: 1.618rem; } }
   @media all and (min-width: 56.25em) {
     h1 {
-      font-size: 1.728rem;
-      line-height: 1.5rem; } }
+      font-size: 2.0736rem;
+      line-height: 1.618rem; } }
   @media all and (min-width: 75em) {
     h1 {
-      font-size: 1.728rem;
-      line-height: 1.5rem; } }
+      font-size: 2.0736rem;
+      line-height: 1.618rem; } }
   @media all and (min-width: 112.5em) {
     h1 {
-      font-size: 1.728rem;
-      line-height: 1.5rem; } }
+      font-size: 2.0736rem;
+      line-height: 1.618rem; } }
 
 h2 {
   font-size: 1.44rem;
-  line-height: 1.5rem;
-  background: lightgoldenrodyellow; }
+  line-height: 1.618rem; }
   @media all and (min-width: 37.5em) {
     h2 {
       font-size: 1.44rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 56.25em) {
     h2 {
       font-size: 1.44rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 75em) {
     h2 {
       font-size: 1.44rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 112.5em) {
     h2 {
       font-size: 1.44rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
 
 h3 {
   font-size: 1.2rem;
-  line-height: 1.5rem;
-  background: lightcoral; }
+  line-height: 1.618rem; }
   @media all and (min-width: 37.5em) {
     h3 {
       font-size: 1.2rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 56.25em) {
     h3 {
       font-size: 1.2rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 75em) {
     h3 {
       font-size: 1.2rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 112.5em) {
     h3 {
       font-size: 1.2rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
 
 h4 {
   font-size: 0.83333rem;
-  line-height: 1.5rem; }
+  line-height: 1.618rem; }
   @media all and (min-width: 37.5em) {
     h4 {
       font-size: 0.83333rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 56.25em) {
     h4 {
       font-size: 0.83333rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 75em) {
     h4 {
       font-size: 0.83333rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 112.5em) {
     h4 {
       font-size: 0.83333rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
 
 h5 {
   font-size: 0.69444rem;
-  line-height: 1.5rem; }
+  line-height: 1.618rem; }
   @media all and (min-width: 37.5em) {
     h5 {
       font-size: 0.69444rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 56.25em) {
     h5 {
       font-size: 0.69444rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 75em) {
     h5 {
       font-size: 0.69444rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 112.5em) {
     h5 {
       font-size: 0.69444rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
 
 h6 {
   font-size: 0.5787rem;
-  line-height: 1.5rem; }
+  line-height: 1.618rem; }
   @media all and (min-width: 37.5em) {
     h6 {
       font-size: 0.5787rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 56.25em) {
     h6 {
       font-size: 0.5787rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 75em) {
     h6 {
       font-size: 0.5787rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
   @media all and (min-width: 112.5em) {
     h6 {
       font-size: 0.5787rem;
-      line-height: 1.5rem; } }
+      line-height: 1.618rem; } }
 
 body {
   background-color: #e3e2ca;
@@ -652,26 +649,11 @@ body {
 p {
   padding: 0.809rem 1.618rem 1.618rem 1.618rem; }
 
-address {
-  font-size: 0.83333rem;
-  line-height: 1.5rem;
-  text-align: center; }
-  @media all and (min-width: 37.5em) {
-    address {
-      font-size: 0.83333rem;
-      line-height: 1.5rem; } }
-  @media all and (min-width: 56.25em) {
-    address {
-      font-size: 0.83333rem;
-      line-height: 1.5rem; } }
-  @media all and (min-width: 75em) {
-    address {
-      font-size: 0.83333rem;
-      line-height: 1.5rem; } }
-  @media all and (min-width: 112.5em) {
-    address {
-      font-size: 0.83333rem;
-      line-height: 1.5rem; } }
+a {
+  text-decoration: none;
+  color: #696868; }
+  a:hover, a:active {
+    color: #b5b5b5; }
 
 .header {
   display: -webkit-box;
@@ -684,35 +666,49 @@ address {
   background-color: black; }
   .header + p {
     font-size: 1.2rem;
-    line-height: 1.5rem; }
+    line-height: 1.618rem; }
     @media all and (min-width: 37.5em) {
       .header + p {
         font-size: 1.2rem;
-        line-height: 1.5rem; } }
+        line-height: 1.618rem; } }
     @media all and (min-width: 56.25em) {
       .header + p {
         font-size: 1.2rem;
-        line-height: 1.5rem; } }
+        line-height: 1.618rem; } }
     @media all and (min-width: 75em) {
       .header + p {
         font-size: 1.2rem;
-        line-height: 1.5rem; } }
+        line-height: 1.618rem; } }
     @media all and (min-width: 112.5em) {
       .header + p {
         font-size: 1.2rem;
-        line-height: 1.5rem; } }
+        line-height: 1.618rem; } }
   .header__logo {
     display: block;
     width: 100%;
     -webkit-box-ordinal-group: 0;
     -ms-flex-order: -1;
     order: -1; }
+    @media all and (min-width: 37.5em) {
+      .header__logo {
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        order: 0; } }
 
 .nav__list {
   list-style: none; }
+  @media all and (min-width: 37.5em) {
+    .nav__list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%; } }
 
 .nav__item {
-  text-align: center; }
+  text-align: center;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
 
 .nav__link, .nav__link:visited {
   display: block;
@@ -722,3 +718,113 @@ address {
   background-color: rgba(107, 107, 107, 0.4);
   line-height: 3.236rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+
+.nav__link:active, .nav__link:hover {
+  color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(107, 107, 107, 0.4); }
+
+.playbill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .playbill__title {
+    font-weight: normal;
+    margin: 0;
+    padding: 1.618rem 0 1.618rem 1.618rem; }
+  .playbill .nav {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1; }
+    @media all and (min-width: 37.5em) {
+      .playbill .nav {
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        order: 0; } }
+
+.credits {
+  margin-left: 1.618rem; }
+  .credits__label {
+    font-size: 1.44rem;
+    line-height: 1.618rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.4); }
+    @media all and (min-width: 37.5em) {
+      .credits__label {
+        font-size: 1.44rem;
+        line-height: 1.618rem; } }
+    @media all and (min-width: 56.25em) {
+      .credits__label {
+        font-size: 1.44rem;
+        line-height: 1.618rem; } }
+    @media all and (min-width: 75em) {
+      .credits__label {
+        font-size: 1.44rem;
+        line-height: 1.618rem; } }
+    @media all and (min-width: 112.5em) {
+      .credits__label {
+        font-size: 1.44rem;
+        line-height: 1.618rem; } }
+  .credits__data {
+    font-size: 1.2rem;
+    line-height: 1.618rem;
+    margin-left: 0.809rem;
+    margin-bottom: 0.809rem; }
+    @media all and (min-width: 37.5em) {
+      .credits__data {
+        font-size: 1.2rem;
+        line-height: 1.618rem; } }
+    @media all and (min-width: 56.25em) {
+      .credits__data {
+        font-size: 1.2rem;
+        line-height: 1.618rem; } }
+    @media all and (min-width: 75em) {
+      .credits__data {
+        font-size: 1.2rem;
+        line-height: 1.618rem; } }
+    @media all and (min-width: 112.5em) {
+      .credits__data {
+        font-size: 1.2rem;
+        line-height: 1.618rem; } }
+
+#play1 {
+  font-family: Champagne, cursive;
+  background-color: #c2c2ff; }
+
+#play2 {
+  font-family: Grunge, 'Times New Roman', Times, serif;
+  background-color: #f7b07e; }
+
+#play3 {
+  font-family: Impact, Charcoal, sans-serif;
+  background-color: #ff8080; }
+
+#play4 {
+  font-family: Dobkin, cursive;
+  background-color: #f6bdfa; }
+
+.footer {
+  padding: 1.618rem; }
+  .footer__address {
+    font-size: 0.83333rem;
+    line-height: 1.618rem;
+    text-align: center; }
+    @media all and (min-width: 37.5em) {
+      .footer__address {
+        font-size: 0.83333rem;
+        line-height: 1.618rem; } }
+    @media all and (min-width: 56.25em) {
+      .footer__address {
+        font-size: 0.83333rem;
+        line-height: 1.618rem; } }
+    @media all and (min-width: 75em) {
+      .footer__address {
+        font-size: 0.83333rem;
+        line-height: 1.618rem; } }
+    @media all and (min-width: 112.5em) {
+      .footer__address {
+        font-size: 0.83333rem;
+        line-height: 1.618rem; } }

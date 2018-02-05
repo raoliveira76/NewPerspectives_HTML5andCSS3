@@ -1,0 +1,7 @@
+.footer{
+    padding: vr(1);   
+    &__address{
+        @include typi('h4');
+        text-align: center;
+    }
+}

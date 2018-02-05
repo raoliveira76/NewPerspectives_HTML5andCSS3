@@ -1,11 +1,16 @@
 .nav{
     &__list{
         list-style: none;
+
+        @include my-mq(sm){
+            display: flex;            
+            width: 100%;
+        }
     }
 
     &__item{
-        // outline: 2px solid black; //BORRAR
         text-align: center;
+        flex-grow: 1;
     }
     
     &__link, &__link:visited{
@@ -16,5 +21,10 @@
         background-color: $color4;
         line-height: vr(2);
         border-bottom: 1px solid rgba(255,255,255,.05);
-    }    
+    }
+    
+    &__link:active, &__link:hover{
+        color:$color3;
+        background-color: $color4;
+    }
 }

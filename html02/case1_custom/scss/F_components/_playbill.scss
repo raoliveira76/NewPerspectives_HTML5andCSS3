@@ -1,0 +1,59 @@
+// 18. Create a style rule for every dd element to set the font size to 1.3em, the left margin space to 0
+// pixels, and the bottom margin space to 10 pixels.
+
+.playbill{
+    display: flex;
+    flex-direction: column;
+    &__title{
+        font-weight: normal;        
+        margin: 0;
+        padding: vr(1) 0 vr(1) vr(1);
+    }
+
+    &__aside{
+
+    }
+
+    .nav{
+        order: 1;
+        @include my-mq(sm){
+            order: 0;
+        }        
+    }
+}
+
+.credits{
+    margin-left: vr(1);
+    &__label{
+        @include typi('h2');
+        font-weight: bold;
+        color: hsla(0, 0%, 0%, 0.4);
+    }
+
+    &__data{
+        @include typi('h3');
+        margin-left: vr(.5);
+        margin-bottom: vr(0.5);
+    }
+}
+
+
+#play1{
+    font-family: Champagne, cursive;
+    background-color: hsl(240, 100%, 88%);
+}
+
+#play2{
+    font-family: Grunge, 'Times New Roman', Times, serif;
+    background-color: hsl(25, 88%, 73%);
+}
+
+#play3{
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: hsl(0, 100%, 75%);
+}
+
+#play4{
+    font-family: Dobkin, cursive;
+    background-color: hsl(296, 86%, 86%);
+}

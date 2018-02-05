@@ -11,5 +11,9 @@
         display: block;
         width: 100%;
         order: -1;
+
+        @include my-mq(sm){
+            order: 0;
+        }
     }
 }
