@@ -1,0 +1,6 @@
+@mixin my-mq($breakpoint){
+    @include mappy-bp(map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}
+

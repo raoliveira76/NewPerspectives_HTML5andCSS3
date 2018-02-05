@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    flex-flow: column;
+    background-color: black;
+
+    +p{
+        @include typi('h3');
+    }
+   
+    &__logo{
+        display: block;
+        width: 100%;
+        order: -1;
+
+        @include my-mq(sm){
+            order: 0;
+        }
+    }
+}

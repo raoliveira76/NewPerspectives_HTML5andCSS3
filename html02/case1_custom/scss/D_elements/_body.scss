@@ -1,0 +1,8 @@
+body{
+    // @include baseline-grid(); //TODO: Borrar
+    background-color: $color2;
+    max-width: 1024px; //TODO: corregir con variables
+    width: calc(100% - vr(1));
+    margin: 0 auto;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif
+}
