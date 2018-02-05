@@ -1,18 +1,15 @@
-.header{
+.header {
     display: flex;
     flex-flow: column;
     background-color: black;
-
-    +p{
+    +p {
         @include typi('h3');
     }
-   
-    &__logo{
+    &__logo {
         display: block;
-        width: 100%;
         order: -1;
-
-        @include my-mq(sm){
+        width: 100%;
+        @include my-mq(sm) {
             order: 0;
         }
     }

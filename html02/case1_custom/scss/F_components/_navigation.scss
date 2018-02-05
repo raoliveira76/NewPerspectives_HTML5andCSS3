@@ -1,30 +1,29 @@
-.nav{
-    &__list{
+.nav {
+    &__list {
         list-style: none;
-
-        @include my-mq(sm){
-            display: flex;            
+        @include my-mq(sm) {
+            display: flex;
             width: 100%;
         }
     }
-
-    &__item{
-        text-align: center;
+    &__item {
         flex-grow: 1;
+        text-align: center;
     }
-    
-    &__link, &__link:visited{
-        display: block;        
-        color: white;
-        font-family: 'Trebuchet MS', Helvetica, sans-serif!important;
+    &__link,
+    &__link:visited {
+        display: block;
+        line-height: vr(2); 
+        font-family: 'Trebuchet MS', Helvetica, sans-serif;
+        color: white;        
         text-decoration: none;
         background-color: $color4;
-        line-height: vr(2);
-        border-bottom: 1px solid rgba(255,255,255,.05);
+        border-bottom: 1px solid rgba(255, 255, 255, .05);
+        
     }
-    
-    &__link:active, &__link:hover{
-        color:$color3;
+    &__link:active,
+    &__link:hover {
+        color: $color3;
         background-color: $color4;
     }
 }
