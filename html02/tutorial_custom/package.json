@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install_global:package": "npm i -g node-sass babel-cli babel-preset-latest pug pug-cli browser-sync parallelshell rimraf mkdirp uncss postcss-cli autoprefixer buildify useref useref-cli html-minifier copy imagemin imagemin-cli imagemin-pngquant imagemin-jpeg-recompress imagemin-webp imagemin-svgo imagemin-gifsicle",
-		"install_dev:package": "npm i -D node-sass babel-cli babel-preset-latest pug pug-cli browser-sync parallelshell rimraf mkdirp uncss postcss-cli autoprefixer buildify useref useref-cli html-minifier copy imagemin imagemin-cli imagemin-pngquant imagemin-jpeg-recompress imagemin-webp imagemin-svgo imagemin-gifsicle",
+    "install_global:package": "npm i -g node-sass babel-cli babel-preset-latest pug pug-cli browser-sync parallelshell rimraf mkdirp uncss postcss-cli autoprefixer buildify useref useref-cli html-minifier copy imagemin imagemin-cli imagemin-pngquant imagemin-jpeg-recompress imagemin-webp imagemin-svgo imagemin-gifsicle chalk-cli",
+    "install_dev:package": "npm i -D node-sass babel-cli babel-preset-latest pug pug-cli browser-sync parallelshell rimraf mkdirp uncss postcss-cli autoprefixer buildify useref useref-cli html-minifier copy imagemin imagemin-cli imagemin-pngquant imagemin-jpeg-recompress imagemin-webp imagemin-svgo imagemin-gifsicle chalk-cli",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass -w ./scss/ -o ./css/ --source-map-embed true --source-map-root ../"
+    "scss": "chalk blue inverse \">-->--> Observando Archivos SCSS:\" && node-sass -w ./scss/ -o ./css/ --source-map-embed true --source-map-root ../ --output-style expanded --indent-type space --indent-width 2"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
