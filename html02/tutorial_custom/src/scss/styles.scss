@@ -1,0 +1,11 @@
+@import './01-settings/_SETTINGS.scss';  
+@import './02-tools/_TOOLS.scss';  
+@import './03-generic/_GENERIC.scss';  
+@import './04-elements/_ELEMENTS.scss';  
+@import './05-objects/_OBJECTS.scss';  
+@import './06-components/_COMPONENTS.scss';  
+@import './07-utilities/_UTILITIES.scss'; 
+
+body{
+    background-color: gray;
+}
