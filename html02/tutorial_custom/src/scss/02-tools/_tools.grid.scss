@@ -1,0 +1,39 @@
+@mixin wrapper ($flex:false){
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: vr(1/2);
+    @if flex == true {
+        display: flex;
+
+    } @else{
+        &::before, &::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+    } 
+}
+
+@mixin column($width, $flex: false){
+
+    @if $width > 1 {
+        @error "el valor debe ser una fraccion valida";
+    }
+
+    $width: calc(#{percentage($width)} - #{vr(1/2)});
+
+    @if flex == true {
+        flex: 1 1 $width;
+        margin-left: #{vr(1)/4};
+        margin-right: #{vr(1)/4};
+        padding: vr(1)/4;
+    } @else{
+        width: $width;
+        margin-left: #{vr(1)/4};
+        margin-right: #{vr(1)/4};
+        float: left;
+        padding: vr(1)/4;
+    }
+}

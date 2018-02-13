@@ -1,3 +1,9 @@
+// Tipografia Responsive Modular
+@import '../../../../bower_components/mappy-breakpoints/_mappy-breakpoints.scss';
+@import '../../../../bower_components/modular-scale/stylesheets/_modular-scale.scss';
+@import '../../../../bower_components/typi/scss/_typi.scss';
+
+// Estructura ITCSS del proyecto
 @import './01-settings/_SETTINGS.scss';  
 @import './02-tools/_TOOLS.scss';  
 @import './03-generic/_GENERIC.scss';  
@@ -5,7 +11,3 @@
 @import './05-objects/_OBJECTS.scss';  
 @import './06-components/_COMPONENTS.scss';  
 @import './07-utilities/_UTILITIES.scss'; 
-
-body{
-    background-color: gray;
-}
