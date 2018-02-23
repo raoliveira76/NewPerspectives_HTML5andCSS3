@@ -1,0 +1,7 @@
+.o-list-checked{
+    margin-bottom: 1.5rem;
+        
+    &__item{
+        list-style-image: url('../img/check.png');
+    }
+}

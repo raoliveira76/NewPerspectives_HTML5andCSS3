@@ -1,0 +1,26 @@
+.c-syllabus{
+    & > ul{
+        margin-bottom: 1.618rem;
+    }
+
+    & > ol{
+        margin-bottom: 1.618rem;
+    }
+
+    ol{
+        list-style-type: upper-roman;
+        margin-left: 1rem;
+        line-height: 1.618rem;
+        ol{
+            list-style-type: upper-alpha;
+
+            ol{
+                list-style-type: decimal;
+            }
+        }
+    }
+
+    h1,h2{
+        background-color: rgb(255, 185, 255);;
+    }
+}

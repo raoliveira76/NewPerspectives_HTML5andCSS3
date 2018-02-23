@@ -1,0 +1,26 @@
+.c-about-tss{
+
+    &__image{
+        float: right;
+        width: 40%;
+        margin-left: 1rem;
+    }
+}
+
+.c-classes{
+    &__item{
+        list-style-position: outside;
+        padding-left: 0;
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+        &--running{
+            list-style-image: url('../img/runicon.png');
+        }
+        &--cycling{
+            list-style-image: url('../img/bikeicon.png');
+        }
+        &--swiming{
+            list-style-image: url('../img/swimicon.png');
+        }
+    }
+}

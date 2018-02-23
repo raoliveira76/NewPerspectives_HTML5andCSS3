@@ -1,0 +1,13 @@
+.o-shedule-list{
+   list-style-type: square;
+    &__item{
+        span{
+            display: inline-block;
+        }
+
+        span + span{
+            text-align: right;
+        }
+    }
+}
+

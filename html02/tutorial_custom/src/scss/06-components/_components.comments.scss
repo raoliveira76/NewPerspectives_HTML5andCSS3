@@ -1,0 +1,20 @@
+.c-comments{
+    &__comment{
+        color: rgb(232, 165, 116);
+        margin-bottom: 1.5rem;
+        padding-left: 2rem;
+
+        quotes: '\201C' '\201D';
+        &::after, &::before{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.8em;
+        }
+
+        &::before{
+            content: open-quote;
+        }
+        &::after{
+            content: close-quote;
+        }
+    }
+}
