@@ -1,0 +1,10 @@
+.c-navigation{
+    font-size: 0.9em;
+    line-height: 2em;
+
+    &__link{
+        &:hover, &:active{
+            color: rgb(212, 35, 35);
+        }
+    }
+}

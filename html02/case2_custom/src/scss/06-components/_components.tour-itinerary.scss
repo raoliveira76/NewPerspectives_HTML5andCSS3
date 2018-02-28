@@ -1,0 +1,29 @@
+.c-tour-itinerary{
+    h1{
+        font-size: 1.2em;
+    }
+
+    h2{
+        font-size: 0.9em;
+
+        &:nth-last-of-type(odd){
+            color: rgb(79, 91, 40);
+        }
+
+        &:nth-last-of-type(even){
+            color: rgb(81, 95, 175);
+        }
+    }
+
+    p{
+        font-size: 0.8em;
+
+        &:nth-last-of-type(odd){
+            color: rgb(79, 91, 40);
+        }
+
+        &:nth-last-of-type(even){
+            color: rgb(81, 95, 175);
+        }
+    }    
+}

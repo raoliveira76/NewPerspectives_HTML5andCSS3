@@ -1,0 +1,28 @@
+/*----------  variables  ----------*/
+$fractions: 12;
+
+$widths-delimiter: \/;
+
+$widths-breakpoint-separator: \@;
+
+@mixin widths($columns, $breakpoint: null){
+    @each $denominator in $columns{        
+        /*----------  #{$denominator} Columnas  ----------*/      
+        @for $numerator from 1 through $denominator{
+            .u-#{$numerator}#{$widths-delimiter}#{$denominator}#{$breakpoint}{
+                width: ($numerator / $denominator) * 100%;
+            }
+        }
+    }
+}
+
+@include widths($fractions);
+
+@if (variable-exists($name: mq-breakpoints)){
+    @each $bp-name, $bp-value in $mq-breakpoints{        
+        /*----------  #{$bp-name} #{$bp-value} ----------*/
+        @media screen and (min-width: #{$bp-value}) {
+            @include widths($fractions, #{$widths-breakpoint-separator}#{$bp-name});
+        }
+    }
+}
