@@ -1,0 +1,35 @@
+.c-header{
+    background-color: rgb(97, 97, 211);
+    &__title{
+        font-family: 'Limelight', cursive;
+        font-size: 4vw;
+        color: rgba(255, 255, 255, 0.8);
+        margin-left: 20px;
+        span{
+            color: rgba(255, 255, 255, 0.4);
+        }
+    }
+}
+
+.c-header__nav{
+    // padding-bottom: 1.5rem;
+    background-color: #6161d3;
+    li{
+        // padding: 10px;
+        color: white;
+
+        a{
+            color: white;
+            display: inline-block;
+            margin-bottom: 0;
+            // background-color: red;
+            height: 3em;
+            line-height: 3em; 
+            width: 100%;
+            &:active, &:hover{
+                text-decoration: underline;
+                background-color: darken($color: rgb(97, 97, 211), $amount: 3%);
+            }
+        }
+    }
+}
