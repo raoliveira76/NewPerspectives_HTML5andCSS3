@@ -1,0 +1,22 @@
+{
+  "name": "tutorial_custom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install_global:package": "npm i -g node-sass babel-cli babel-preset-latest pug pug-cli browser-sync parallelshell rimraf mkdirp uncss postcss-cli autoprefixer buildify useref useref-cli html-minifier copy imagemin imagemin-cli imagemin-pngquant imagemin-jpeg-recompress imagemin-webp imagemin-svgo imagemin-gifsicle chalk-cli",
+    "install_dev:package": "npm i -D node-sass babel-cli babel-preset-latest pug pug-cli browser-sync parallelshell rimraf mkdirp uncss postcss-cli autoprefixer buildify useref useref-cli html-minifier copy imagemin imagemin-cli imagemin-pngquant imagemin-jpeg-recompress imagemin-webp imagemin-svgo imagemin-gifsicle chalk-cli",
+    "test": "echo \"Error: no test specified\" && exit 1",    
+    "itcss:imports": "echo @import './01-settings/_SETTINGS.scss'; >> ./src/scss/styles.scss && echo @import './02-tools/_TOOLS.scss'; >> ./src/scss/styles.scss && echo @import './03-generic/_GENERIC.scss'; >> ./src/scss/styles.scss && echo @import './04-elements/_ELEMENTS.scss'; >> ./src/scss/styles.scss && echo @import './05-objects/_OBJECTS.scss'; >> ./src/scss/styles.scss && echo @import './06-components/_COMPONENTS.scss'; >> ./src/scss/styles.scss && echo @import './07-utilities/_UTILITIES.scss'; >> ./src/scss/styles.scss",
+    "itcss:files": "fsutil file createnew .\\src\\scss\\01-settings\\_SETTINGS.scss 0 && fsutil file createnew .\\src\\scss\\02-tools\\_TOOLS.scss 0 && fsutil file createnew .\\src\\scss\\03-generic\\_GENERIC.scss 0 && fsutil file createnew .\\src\\scss\\04-elements\\_ELEMENTS.scss 0 && fsutil file createnew .\\src\\scss\\05-objects\\_OBJECTS.scss 0 && fsutil file createnew .\\src\\scss\\06-components\\_COMPONENTS.scss 0 && fsutil file createnew .\\src\\scss\\07-utilities\\_UTILITIES.scss 0",
+    "createdirs": "mkdirp ./src/ ./dist/ ./src/css/ ./src/img/ ./src/fonts/ ./src/es6/ ./src/js/ ./src/scss/ ./src/scss/01-settings/ ./src/scss/02-tools/ ./src/scss/03-generic/ ./src/scss/04-elements/ ./src/scss/05-objects/ ./src/scss/06-components/ ./src/scss/07-utilities/ ./dist/css/ ./dist/js/ ./dist/fonts/ ./dist/img/",
+    "boilerplate": "npm run createdirs && npm run itcss:files && npm run itcss:imports",
+    "watch:scss": "node-sass -w ./src/scss/ -o ./src/css/ --source-map-embed true --source-map-root ../../ --output-style expanded --indent-type space --indent-width 2",
+    "dev:serve": "browser-sync start --server --directory --startPath ./src/ src  --serverStatic src --files src --reload-delay=300 --reload-debounce=500",
+    "watch:devserve": "parallelshell \"npm run dev:serve\" \"npm run watch:scss\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

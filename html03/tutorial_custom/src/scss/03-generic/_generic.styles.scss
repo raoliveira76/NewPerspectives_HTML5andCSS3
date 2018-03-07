@@ -1,0 +1,32 @@
+@font-face {
+	font-family: Champagne;
+	src: url(../fonts/cac_champagne.woff) format('woff'),
+	     url(../fonts/cac_champagne.ttf) format('ttf');
+}
+
+html{
+    font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+h1{
+    font-weight: normal;
+}
+
+nav {
+    ul {
+        list-style: none;
+        li {
+            float: left;
+            a {
+                text-decoration: none;
+                line-height: 2;
+            }
+        }
+
+        &:after{
+            content: '';
+            display: table;
+            clear: both;
+        }
+    }
+}

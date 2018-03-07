@@ -1,0 +1,31 @@
+.o-wrapper{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 3px solid red;
+}
+
+
+.o-layout{
+    outline: 2px solid green;
+
+    &::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+
+.o-layout__item{
+    float: left;
+
+    outline: 1px solid blue;    
+}
+
+.o-layout__item--gutter{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: 1px solid blue;    
+}
